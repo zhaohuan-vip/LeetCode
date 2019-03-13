@@ -31,6 +31,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -41,7 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\0001. 两数之和.cs" />
+    <Compile Include="Code\0002. 两数相加.cs" />
+    <Compile Include="Code\0006. Z字形变换.cs" />
+    <Compile Include="Code\0007. 反转整数.cs" />
+    <Compile Include="Code\0009. 回文数.cs" />
+    <Compile Include="Code\0011. 盛最多水的容器.cs" />
+    <Compile Include="Code\0217. 存在重复元素.cs" />
+    <Compile Include="Code\0021. 合并两个有序链表.cs" />
+    <Compile Include="Code\0524. 通过删除字母匹配到字典里最长单词.cs" />
+    <Compile Include="Code\0693. 交替位二进制数.cs" />
+    <Compile Include="Code\0709. 转换成小写字母.cs" />
+    <Compile Include="Code\0771. 宝石与石头.cs" />
     <Compile Include="Code\Solution.cs" />
+    <Compile Include="Code\0504. 七进制数.cs" />
+    <Compile Include="Code\0191. 位1的个数.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="Model\SolutionModel.cs" />
     <Compile Include="Program.cs" />
@@ -49,6 +64,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="Code\0402. 移掉K位数字.cs" />
+    <Compile Include="Code\0461. 汉明距离.cs" />
+    <Compile Include="Code\0008. 字符串转整数 %28atoi%29.cs" />
+    <Compile Include="Code\0012. 整数转罗马数字.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
