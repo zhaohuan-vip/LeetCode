@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Code\0001. 两数之和.cs" />
     <Compile Include="Code\0002. 两数相加.cs" />
+    <Compile Include="Code\0003.无重复字符的最长子串.cs" />
     <Compile Include="Code\0006. Z字形变换.cs" />
     <Compile Include="Code\0007. 反转整数.cs" />
     <Compile Include="Code\0009. 回文数.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="Code\0693. 交替位二进制数.cs" />
     <Compile Include="Code\0709. 转换成小写字母.cs" />
     <Compile Include="Code\0771. 宝石与石头.cs" />
+    <Compile Include="Code\0992. K 个不同整数的子数组.cs" />
     <Compile Include="Code\Solution.cs" />
     <Compile Include="Code\0504. 七进制数.cs" />
     <Compile Include="Code\0191. 位1的个数.cs" />

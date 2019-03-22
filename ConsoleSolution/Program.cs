@@ -33,12 +33,14 @@ namespace ConsoleSolution
                     //    Console.WriteLine("Result：" + result);
                     //}
                     Console.WriteLine("input:");
-                    var k = Convert.ToInt32(Console.ReadLine());
-                   
-                   
-                    var result = solution.IntToRoman(k);
+                    //var k = Convert.ToInt32(Console.ReadLine());
+                    var s = Console.ReadLine();
+
+                    
+                    var result = solution.LengthOfLongestSubstring(s);
+
                     Console.WriteLine("Result：" + result);
-                    //Console.ReadKey();
+                    Console.ReadKey();
 
                 }
                 catch(Exception ex)
