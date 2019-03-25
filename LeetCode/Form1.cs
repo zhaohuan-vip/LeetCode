@@ -27,7 +27,7 @@ namespace LeetCode
                 dynamic p4 = ConvertToType(cmbType4, txtVal4);
 
                 string result = "";
-                result = new Solution992().SubarraysWithKDistinct(p1, p2).ToString();
+                result = new Solution13().RomanToInt(p1).ToString();
                 rtbConsole.AppendColorText("输出：" + result);
             }
             catch (Exception ex)
