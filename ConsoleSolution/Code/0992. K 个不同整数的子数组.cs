@@ -23,6 +23,7 @@ namespace ConsoleSolution.Code
             // 验证集合数组
             List<int> ls = new List<int>();
             List<int> ls2 = new List<int>();
+            // 统计不同的字符数
             int differentCount = 0, differentCount2 = 0;
             int temp = 0;
             for (int j = 0; j < A.Length; j++)
@@ -59,6 +60,7 @@ namespace ConsoleSolution.Code
                     }
                     hsi++;
                 }
+                // 累加循环位置的好数组个数为hsi-ai
                 result += hsi - ai;
             }
             return result;

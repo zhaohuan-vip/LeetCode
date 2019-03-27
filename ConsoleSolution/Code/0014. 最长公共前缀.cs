@@ -16,6 +16,9 @@ namespace ConsoleSolution.Code
             int start = 0, end = minLen;
             int mid = minLen / 2;
             bool add = false;
+            /*
+             * 循环改变start到end的位置取中间索引判定是否符合条件，直到start到end之间无字符
+             * */
             while (end - start > 1)
             {
                 add = isCommonChar(strs, mid);
@@ -29,9 +32,15 @@ namespace ConsoleSolution.Code
                 }
                 mid = (start + end) / 2;
             }
+            // 确定最终索引是start还是end
             return strs[0].Substring(0, isCommonChar(strs, end) ? end : start);
         }
-
+        /// <summary>
+        /// 判定到索引mid的字符串是否是公共字符
+        /// </summary>
+        /// <param name="strs"></param>
+        /// <param name="mid"></param>
+        /// <returns></returns>
         public bool isCommonChar(string[] strs, int mid)
         {
             string tempPre = strs[0].Substring(0, mid);
