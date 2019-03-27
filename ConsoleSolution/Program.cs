@@ -32,6 +32,7 @@ namespace ConsoleSolution
                     //    var result = solution.MyAtoi(s);
                     //    Console.WriteLine("Result：" + result);
                     //}
+                    Console.WriteLine((int)(3 / 2));
                     Console.WriteLine("input:");
                     //var k = Convert.ToInt32(Console.ReadLine());
                     var s = Console.ReadLine();

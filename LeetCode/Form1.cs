@@ -27,7 +27,7 @@ namespace LeetCode
                 dynamic p4 = ConvertToType(cmbType4, txtVal4);
 
                 string result = "";
-                result = new Solution13().RomanToInt(p1).ToString();
+                result = new Solution14().LongestCommonPrefix(p1).ToString();
                 rtbConsole.AppendColorText("输出：" + result);
             }
             catch (Exception ex)
@@ -75,7 +75,7 @@ namespace LeetCode
                     }
                     else
                     {
-                        result = arr;
+                        result = arr.Select(m=>m.Replace("\"","")).ToArray();
                     }
                 }
                 else

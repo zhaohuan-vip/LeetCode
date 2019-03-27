@@ -50,6 +50,7 @@
     <Compile Include="Code\0009. 回文数.cs" />
     <Compile Include="Code\0011. 盛最多水的容器.cs" />
     <Compile Include="Code\0013. 罗马数字转整数.cs" />
+    <Compile Include="Code\0014. 最长公共前缀.cs" />
     <Compile Include="Code\0217. 存在重复元素.cs" />
     <Compile Include="Code\0021. 合并两个有序链表.cs" />
     <Compile Include="Code\0524. 通过删除字母匹配到字典里最长单词.cs" />
